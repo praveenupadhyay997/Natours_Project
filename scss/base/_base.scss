@@ -1,0 +1,14 @@
+// Partial CSS file
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    // This defines basically what 1rem is
+    font-size: $font-default-percent;
+}
